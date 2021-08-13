@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/title.jpg">
+    <title>Rems | Official Site</title>
+</head>
+<body>
+<header>
+    <div class="container-one">
+    <a class="name-logo" href="#">< / >Rmdy<span>rems</span></a>
+    <img id="mobile-cta" class="mobile-menu1" src="images/menu.svg" alt="Menu">
+    <nav class="navbar">
+        <img id="mobile-menu-exit" class="mobile-menu" src="images/exit.svg" alt="">
+        <ul class="nav-btn">
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">About Me</a></li>
+            <li><a href="#section3">Resume</a></li>
+            <li><a href="#section4">Contact</a></li>
+
+        </ul>
+    </nav>
+</div>
+
+</header>
+<section id="section1" class="section-1">
+    <div class="left-side">
+        <h1>THIS WEBSITE IS NOT YET DONE :( <br> I HOPE YOU UNDERSTAND
+            <br>
+            <br>
+        </h1>
+        <p>Hi! welcome to my website</p>
+        <h1>Remy C. Camiguel</h1>
+        <a class="hire-btn" href="#section3">Hire Me</a>
+    </div>
+    <div class="right-side">
+        <ul>
+            <li>
+                <img class="my-picture" src="images/me.jpg" alt="My Profile picture">
+                <blockquote>"never give up on something you really want. It's difficult to wait, but worse to regret "</blockquote>
+                <cite>-Anonymous</cite>
+            </li>
+        </ul>
+    </div>
+
+</section>
+<!--About me-->
+
+<section id="section2" class="about-me">
+    <div>
+        <h2>ABOUT <span>ME</span></h2>
+        <img class="" src="images/me1.jpg" alt="Me standing">
+        <div class="about-text">
+          <p>
+            My name is Remy C. Camiguel, I was born on October 21, 2001, I love learning new Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam perspiciatis voluptate, ipsa voluptas est asperiores aut provident consectetur obcaecati ea et fuga hic inventore doloremque, natus at reprehenderit saepe tenetur? thingsdadasdas
+          </p>
+
+        </div>
+    </div>
+    <div class="youtube-vid">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ah80l9_dFrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+<!--Gallery section-->
+<section class="gallery">
+    <h2>gallery</h2>
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <img src="/images/work1.jpg" alt="Work one">
+                <h3>work 1</h3>
+        
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="/images/work2.jpg" alt="Work two">
+                <h3>work 2</h3>
+               
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="/images/work3.png" alt="Work three">
+                <h3>work 3</h3>
+               
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="/images/work4.jpg" alt="Work four">
+                <h3>work 4</h3>
+               
+            </div>
+        </div>
+    </div>
+    <!--End of grid-->
+</section>
+<!--Resume section-->
+
+<section id="section3" class="resume">
+    <img class="my-resume" src="images/resume.png" alt="My resume">
+  <div>
+    <a class="resume-btn" href="https://drive.google.com/file/d/14QpjWxEx5934DSZzyd1s5C83KhCWSDSy/view?usp=sharing">Download my resume</a>
+  </div>
+
+</section>
+<hr>
+<section id="section4" class="contact-section">
+    <h2 class="contact-text">contact</h2>
+    <div class="social-media">
+        <img src="/images/fb-logo.png" alt="">
+        <a href="https://www.facebook.com/realjoker2">Facebook</a>
+        <img src="/images/instagram-logo.png" alt="">
+        <a href="https://www.instagram.com/remedyrems/">Instagram</a>
+    </div>
+    <div class="container">
+        <h2>Send me a message</h2>
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name here">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message here"></textarea>
+        <input type="submit" class="send-message" value="Send message">
+    </form>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1nZnqVFNXXBKq2yiPTYJeD-iqcNY&hl=en" width="640" height="480"></iframe>
+    </div>
+</section>
+<script>
+    const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-menu-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+    function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+    }
+
+    
+</script>
+
+<footer class="footer">
+    <div>
+        <ul>
+            <li><a href="https://www.facebook.com/realjoker2">Facebook</a></li>
+            <li><a href="https://www.instagram.com/rmdyrems/">Instagram</a></li>
+        </ul>
+        <p>Copyright &copy; 2021 | Remy C. Camiguel</p>
+    </div>
+</footer>
+</body>
+</html>
