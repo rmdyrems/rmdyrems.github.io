@@ -184,10 +184,14 @@ nav.menu-btn {
 .about-me .youtube-vid {
   padding: 0;
   margin: 0;
+ 
 }
 
 .about-me .youtube-vid iframe {
   border-radius: 0.7em;
+  width: 100%;
+  height: 550px;
+  border: none;
 }
 
 .gallery {
@@ -256,6 +260,7 @@ nav.menu-btn {
   }
 }
 
+
 section.resume {
   background: #e4e4e4;
 }
@@ -271,7 +276,7 @@ section.resume .resume-btn {
   background: var(--color);
   padding: 1em 1em 1em 1em;
   margin-left: 2em;
-  border-radius: 3em;
+  border-radius: 1em;
   color: white;
 }
 
@@ -356,5 +361,20 @@ footer.footer p {
   color: white;
   font-size: 0.9em;
   font-style: italic;
+}
+
+.notice{
+  margin: 1em;
+  padding: 0.3em;
+  background-color: var(--black);
+  color: white;
+  border-radius: 0.3em;
+  text-align: center;
+}
+.cls-btn button{
+  display: inline-block;
+  float:right;
+  text-decoration: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
